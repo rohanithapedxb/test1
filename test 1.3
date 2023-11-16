@@ -1,0 +1,25 @@
+To pull files or changes from a GitHub repository to your local Linux machine, you can use the `git pull` command within the directory of your cloned repository. Here are the steps:
+
+### Pulling Files from GitHub to Linux:
+
+1. **Open Terminal:**
+   Open the terminal on your Linux machine.
+
+2. **Navigate to the Repository Directory:**
+   Use `cd` to navigate to the directory where your repository is located. For example:
+   ```bash
+   cd ~/path/to/yourterepository
+   ```
+   Replace `~/path/to/your/repository` with the actual path to your local repository.
+
+3. **Pull Changes from GitHub:**
+   Use the `git pull` command to fetch and apply changes from the remote GitHub repository:
+   ```bash
+   git pull origin main
+   ```
+   Replace `main` with the branch name you want to pull changes from. This command fetches changes from the default branch (often `main` or `master`) of the remote repository (`origin`) and applies them to your local repository.
+
+4. **Handle Merge Conflicts (if any):**
+   If there are conflicting changes between your local repository and the remote GitHub repository, Git may prompt you to resolve conflicts manually. You'll need to edit the conflicting files and resolve the differences.
+
+Once you've executed the `git pull` command, your local repository will be updated with the changes from the GitHub repository, allowing you to have the latest version of files on your Linux machine.
